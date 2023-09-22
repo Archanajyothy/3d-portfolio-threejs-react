@@ -14,7 +14,7 @@ const Section = styled.div`
 const Container = styled.div`
   height: 100vh;
   scroll-snap-align: center;
-  width: 1400px;
+  width: 900px;
   display: flex;
   justify-content: space-between;
 `
@@ -30,7 +30,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 74px;
+  font-size: 67px;
 
   
 `;
