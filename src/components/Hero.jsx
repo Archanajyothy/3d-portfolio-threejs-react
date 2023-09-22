@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbar from './Navbar'
+import { Sphere, OrbitControls, MeshDistortMaterial } from '@react-three/drei'
+import { Canvas } from '@react-three/fiber'
+import Cube from './Cube'
 
 const Section = styled.div`
   height: 100vh;
@@ -109,6 +112,18 @@ const Hero = () => {
                 <Button>Learn more</Button>
             </Left>
             <Right>
+                <Canvas >
+                    <OrbitControls enableZoom={false}  />
+                    <ambientLight intensity={1} />
+                    <directionalLight position={[3, 3, 1]} />
+                    <Sphere args={[1,100,200]} scale={2.7} >
+                        <MeshDistortMaterial
+                        color="#8f6cab"
+                        attach="material"
+                        distort={0.5}
+                        speed={2} />
+                    </Sphere>
+                </Canvas>
                 <Img src="src/img/moon.png" />
             </Right>
         </Container>
