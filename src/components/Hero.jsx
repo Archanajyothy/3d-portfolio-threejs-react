@@ -100,7 +100,7 @@ const Hero = () => {
             <Left>
                 <Title>Think. Make. Solve.</Title>
                 <WhatWeDo>
-                    <Line src='../public/img/line.png' />
+                    <Line src="src/img/line.png" />
                     <Subtitle>What we Do</Subtitle>
                 </WhatWeDo>
                 <Desc>
@@ -109,7 +109,7 @@ const Hero = () => {
                 <Button>Learn more</Button>
             </Left>
             <Right>
-                <Img src='../public/img/moon.png' />
+                <Img src="src/img/moon.png" />
             </Right>
         </Container>
     </Section>

@@ -73,7 +73,7 @@ const Navbar = () => {
     <Section>
       <Container>
         <Links>
-          <Logo src="./img/logos.png" />
+          <Logo src="src/img/logos.png" />
           <List>
             <ListItem>Home</ListItem>
             <ListItem>Studio</ListItem>
@@ -83,7 +83,7 @@ const Navbar = () => {
         </Links>
         <Icons>
           {/* Changed the image due to copyright problems */}
-          <Icon src="./img/search.png" />
+          <Icon src="src/img/search.png" />
           <Button>Hire Now</Button>
         </Icons>
       </Container>

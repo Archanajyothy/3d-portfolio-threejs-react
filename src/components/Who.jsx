@@ -76,7 +76,7 @@ const Who = () => {
             <Right>
                 <Title>Think outside the square space</Title>
                 <WhatWeDo>
-                    <Line src='../public/img/line.png' />
+                    <Line src='src/img/line.png' />
                     <Subtitle>Who we Are</Subtitle>
                 </WhatWeDo>
                 <Desc>
